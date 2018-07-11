@@ -1,0 +1,157 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 800px;
+    background-image: url("header.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.naviga{
+    height:100px;
+    background-color: #222;
+    opacity: 0.7;
+}
+
+h1{
+    /* font-family: 'Pacifico', cursive; */
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 100px;
+    margin-top: 200px;
+    color:white;
+}
+
+.header a.button{
+    border: 7px solid #333;
+    border-radius:90px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    margin-top:30px;
+    transition: 0.4s;   
+}
+
+.header a.button:hover{
+    background-color:#333;
+    color:#966;
+    transition: 0.4s;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:18px ;
+    color:#777 ;
+}
+
+.welcome{
+    height: 500px;;
+}
+
+.welcome h3{
+    margin-top: 100px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:50px;
+}
+welcome p{
+    line-height: 40px;
+}
+
+p{
+    font-family: 'Muli', sans-serif;
+    line-height: 30px;
+    color:#aaa ;
+    font-size: 20px;
+}
+
+.information{
+    height:700px;
+    background-color: #D1E9EA;
+}
+
+.information h3{
+    margin-top: 100px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:50px;
+}
+
+.ourInfo{
+    margin-top: 100px;
+    text-align: right;
+}
+
+.ourInfo p{
+    margin-top: 50px; 
+    font-family: 'Muli', sans-serif;
+    line-height: 20px;
+    color:#888 ;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.ourInfo .circle{
+    height: 130px;
+    width:130px;
+    background-color:white;
+    border: 5px solid black;
+    border-radius: 90px;
+}
+
+.circle{
+    box-shadow:20px 10px 90px;
+}
+
+.quote{
+    height: 800px;
+    background-image: url("header.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.quote h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:90px;
+    margin-top: 200px;
+}
+
+.quote p{
+    text-align: right;
+    padding-right: 100px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    color: white;
+}
+
+.quote a.button{
+    border: 7px solid white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    margin-top:30px;
+    transition: 0.4s;   
+}
+
+
+.quote a.button:hover{
+    background-color:#333;
+    color:white;
+    transition: 0.4s;
+}
